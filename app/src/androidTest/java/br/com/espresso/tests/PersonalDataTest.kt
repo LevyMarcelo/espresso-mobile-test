@@ -12,7 +12,7 @@ import org.junit.Test
 class PersonalDataTest {
 
     @get:Rule
-    var mActivityRule: ActivityTestRule<MainActivity> = ActivityTestRule(MainActivity::class.java)
+    var activityRule: ActivityTestRule<MainActivity> = ActivityTestRule(MainActivity::class.java)
 
     private val personalDataScreen = PersonalDataScreen()
 
