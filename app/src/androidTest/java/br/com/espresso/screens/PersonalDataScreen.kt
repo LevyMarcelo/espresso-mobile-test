@@ -19,15 +19,15 @@ class PersonalDataScreen : Utils() {
         write(fullNameField, value)
     }
 
-    fun whatIsSocialName(element: String) {
+    fun whatIsSocialName(value: String) {
         closeSoftKeyboard()
         click(whatIsSocialNameButton)
-        textValidation(element)
+        textValidation(value)
         click(okUnderstoodButton)
     }
 
-    fun buttonValidationContinue(element: String) {
-        textValidation(element)
+    fun buttonValidationContinue(value: String) {
+        textValidation(value)
     }
 
 }
