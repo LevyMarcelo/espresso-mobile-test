@@ -12,12 +12,11 @@ import org.junit.Test
 class PersonalDataTest {
 
     @get:Rule
-    var activityRule = ActivityTestRule(MainActivity::class.java)
+    val activityRule = ActivityTestRule(MainActivity::class.java)
 
     private val personalDataScreen = PersonalDataScreen()
 
-    @Test
-    fun personalDataTest() {
+    @Test fun personalDataTest() {
         personalDataScreen.fillCpfField("443.388.000-03")
         personalDataScreen.fillFullNameField("Levy Cunha")
         personalDataScreen.whatIsSocialName("O que é um nome social?")
