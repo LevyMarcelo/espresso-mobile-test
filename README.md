@@ -8,3 +8,6 @@
 
 ### Project execution with Android Studio:
 * Run class or fun of test
+
+### Project execution with Gradle:
+* gradle connectedAndroidTest
