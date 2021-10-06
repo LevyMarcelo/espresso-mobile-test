@@ -1,7 +1,8 @@
 # Espresso Mobile Test (Android)
 
-### Language and Frameworks:
+### Language, Frameworks and IDE:
 * Kotlin
+* Espresso
 * JUnit
 * Gradle
 * Android Studio
